@@ -39,13 +39,15 @@ body {
   width: 80vw;
 }*/
 
-.directoryData {
-  margin: 100px;
+.displayData {
+  margin-top: 100px;
+  margin-left: 100px;
   height: 60vh;
   width: 80vw;
   flex-direction: column-reverse;
   align-items: center;
   background-color: lightgray;
+  padding-left: 30px;
 }
 
 button {
@@ -60,13 +62,23 @@ button {
 
 }
 
-.previous{
-  margin-left: 60px;
+#name{
+  text-align: left;
+ 
+}
+#numIndex {
+  text-align: right;
+}
+
+.previous {
+  
   float: left;
+
 }
 
 .next {
   float: right;
+  margin-right: 60px;
 }
 
 #descrip {
@@ -77,5 +89,7 @@ button {
 p {
   text-align: left;
   line-height: normal;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 

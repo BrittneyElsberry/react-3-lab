@@ -1,17 +1,22 @@
 import {Component} from 'react';
 import App from 'react';
 
-const Buttons = ()=> {
+const Buttons = (props)=> {
 
-return (
+    const handleClick=()=>{
+            console.log('The button is clicked.')
+    }
+
+
+return(
+
     <div>
-    <button className="previous">Previous</button>
-    <button className="next">Next</button>
-    </div>
-
+    <button className="previous" onClick={handleClick}>{`<Previous`} {props.userDirectory}</button>
+    <button className="next" onClick={handleClick}>{`Next>`}</button>
+</div>
 
 )
-
+   
 
 
 }
