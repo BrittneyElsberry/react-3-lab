@@ -27,7 +27,7 @@ render(){
   <div className="App">
    <Header />
     <Profile data={this.state.data[this.state.index]} />
-    <Buttons/>
+    <Buttons data={this.state.data[this.state.index]}/>
     </div>
 )
 
