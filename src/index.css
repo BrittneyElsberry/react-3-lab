@@ -64,6 +64,7 @@ button {
 
 #name{
   text-align: left;
+  text-decoration: underline rgb(19, 174, 221);
  
 }
 #numIndex {
@@ -73,12 +74,17 @@ button {
 .previous {
   
   float: left;
+  font-size: 1.0em;
+  margin-left: 95px;
+  margin-top: 10px;
 
 }
 
 .next {
   float: right;
-  margin-right: 60px;
+  margin-right: 75px;
+  font-size: 1.0em;
+  margin-top: 10px;
 }
 
 #descrip {
@@ -93,3 +99,6 @@ p {
   font-size: 1.5em;
 }
 
+li {
+  text-align: left;
+}

@@ -12,23 +12,23 @@ class App extends Component {
 constructor (){
 super()
 this.state = {
-userDirectoryData: data,
+data: data,
 index: 0
 }
 
 }
 
-render(){
-console.log(data)
 
-return (
+render(){
+
+
+
+  return (
   <div className="App">
    <Header />
-    <Profile data={this.state.data} index={this.state.index} />
+    <Profile data={this.state.data[this.state.index]} />
     <Buttons/>
     </div>
-
-
 )
 
 }

@@ -11,8 +11,8 @@ const Buttons = (props)=> {
 return(
 
     <div>
-    <button className="previous" onClick={handleClick}>{`<Previous`} {props.userDirectory}</button>
-    <button className="next" onClick={handleClick}>{`Next>`}</button>
+    <button className="previous" onClick={handleClick}>{`< Previous`} {props.userDirectory}</button>
+    <button className="next" onClick={handleClick}>{`Next >`}</button>
 </div>
 
 )
